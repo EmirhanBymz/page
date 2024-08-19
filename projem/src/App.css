@@ -1,0 +1,154 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.datetime{
+  float: right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .menu:hover {
+  background-color: #00c896;
+}
+
+li.menu {
+  display: inline-block;
+}
+
+.acilir-menu {
+  display: none;
+  position: absolute;
+ background-color:#434343;
+  min-width: 160px;
+  
+}
+
+.acilir-menu a {
+  display: block;
+  text-align: left;
+}
+
+.acilir-menu a:hover {
+  color: white;
+}
+
+.menu:hover .acilir-menu {
+  display: block;
+}
+
+.aktif {
+  background-color: #00c896;
+  color: white;
+}
+.baslik {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.dropdown {
+  margin-bottom: 20px;
+}
+.styled-select {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #00c896;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color:#434343;
+  color: #fff;
+}
+.update-message {
+  font-size: 1em;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #00c896;
+}
+.stopped-message {
+  background-color: red; 
+}
+.database-list {
+  list-style-type: none;
+  padding: 0;
+}
+.database-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.database-item:last-child {
+  border-bottom: none;
+}
+.database-item span {
+  flex: 1;
+  font-size: 1em;
+}
+.database-item div {
+  margin-left: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    font-size: 1.2em;
+  }
+
+  .styled-select {
+    font-size: 0.9em;
+  }
+
+  .update-message {
+    font-size: 0.9em;
+  }
+
+  .database-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .database-item div {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 1em;
+  }
+
+  .styled-select {
+    font-size: 0.8em;
+  }
+
+  .update-message {
+    font-size: 0.8em;
+  }
+
+  .database-item {
+    font-size: 0.9em;
+    padding: 15px;
+  }
+}

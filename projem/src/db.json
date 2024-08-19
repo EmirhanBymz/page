@@ -1,0 +1,28 @@
+{
+  "Databases": [
+    {
+      "id": "1",
+      "dataname": "Oracle DB",
+      "password": "123456",
+      "status":"false"
+    },
+    {
+      "id": "2",
+      "dataname": "MySQL DB",
+      "password": "qwerty",
+      "status":"true"
+    },
+    {
+      "id": "3",
+      "dataname": "PostgreSQL DB",
+      "password": "asdfgh",
+      "status":"true"
+    },
+    {
+      "id": "4",
+      "dataname": "Mongo DB",
+      "password": "363636",
+      "status":"true"
+    }
+  ]
+}
